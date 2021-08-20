@@ -1,0 +1,21 @@
+alias so='source'
+
+alias ..='cd ..'
+alias ...='cd ../..'
+alias ....='cd ../../..'
+
+alias py='python3'
+alias python='python3'
+
+alias vs='code .'
+
+# pyenv
+eval "$(pyenv init -)"
+
+# promt style
+# export PS1='\[\e[01;34m\]\w\[\e[01;32m\]$(__git_ps1 " (%s)" 2>/dev/null)\[\e[0m\] $ '
+export PS1='\[\e[01;36m\]\w\[\e[01;32m\]$(__git_ps1 " (%s)" 2>/dev/null)\[\e[0m\] \$ '
+
+export GIT_PS1_SHOWDIRTYSTATE=1
+
+source "${my_settings_path}/git_alias"
