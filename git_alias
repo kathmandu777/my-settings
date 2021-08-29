@@ -62,4 +62,4 @@ alias gsl='git stash list'
 alias gsa='git stash apply'
 
 # remove branch merged except main, master, develop
-alias gbrm="git branch --merged|egrep -v '\*|main|master|develop'|xargs git branch -d"
+alias gbrm="git branch --merged|egrep -v '\*|main|master|develop|dev|release'|xargs git branch -d"
