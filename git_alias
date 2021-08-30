@@ -60,6 +60,8 @@ __git_complete gpl _git_branch
 alias gst='git stash'
 alias gsl='git stash list'
 alias gsa='git stash apply'
+alias gsp='git stash pop'
+alias gssu='git stash save -u'
 
 # remove branch merged except main, master, develop
 alias gbrm="git branch --merged|egrep -v '\*|main|master|develop|dev|release'|xargs git branch -d"
