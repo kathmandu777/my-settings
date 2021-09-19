@@ -12,6 +12,9 @@ alias vs='code .'
 # pyenv
 # eval "$(pyenv init -)"
 
+# python venv
+alias activate='source venv/bin/activate'
+
 # promt style
 # export PS1='\[\e[01;34m\]\w\[\e[01;32m\]$(__git_ps1 " (%s)" 2>/dev/null)\[\e[0m\] $ '
 export PS1='\[\e[01;36m\]\w\[\e[01;32m\]$(__git_ps1 " (%s)" 2>/dev/null)\[\e[0m\] \$ '
