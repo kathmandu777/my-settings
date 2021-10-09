@@ -63,5 +63,9 @@ alias gsa='git stash apply'
 alias gsp='git stash pop'
 alias gssu='git stash save -u'
 
+# rebase
+alias gr='git rebase'
+__git_complete gr _git_rebase
+
 # remove branch merged except main, master, develop
 alias gbrm="git branch --merged|egrep -v '\*|main|master|develop|dev|release'|xargs git branch -d"
