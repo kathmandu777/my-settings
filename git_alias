@@ -67,5 +67,13 @@ alias gssu='git stash save -u'
 alias grb='git rebase'
 __git_complete grb _git_rebase
 
+# reset
+alias grs='git reset'
+__git_complete grs _git_reset
+alias grss^='git reset --soft HEAD^'
+alias grss^^='git reset --soft HEAD^^'
+alias grsh^='git reset --hard HEAD^'
+alias grsh^^='git reset --hard HEAD^^'
+
 # remove branch merged except main, master, develop
 alias gbrm="git branch --merged|egrep -v '\*|main|master|develop|dev|release'|xargs git branch -d"
