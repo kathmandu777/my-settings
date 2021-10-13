@@ -36,7 +36,6 @@ __git_complete gcm _git_commit
 alias gd='git diff'
 __git_complete gd _git_diff
 
-
 # fetch
 alias gfo='git fetch origin'
 #__git_complete gfe _git_fetch
@@ -50,6 +49,9 @@ __git_complete gm _git_branch
 alias gps='git push'
 __git_complete gps _git_push
 __git_complete gps _git_branch
+alias gpso='git push origin'
+__git_complete gpso _git_branch
+alias gpsoh='git push origin HEAD'
 
 # pull
 alias gpl='git pull'
