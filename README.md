@@ -2,13 +2,10 @@
 settings for .bashrc etc
 
 ## Requirements
-#### git-completion.sh
-1. `wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -O ~/.git-completion.bash`
-1. `chmod a+x ~/.git-completion.bash`
-
-#### git-prompt.sh
-1. `wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -O ~/.git-prompt.sh`
-1. `chmod a+x ~/.git-prompt.sh`
+```bash
+chmod 755 setup.sh
+./setup.sh
+```
 
 ## Usage
 Add the following to the end of your .bashrc
