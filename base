@@ -10,6 +10,10 @@ alias pip='pip3'
 
 alias vs='code .'
 
+alias p='cd $HOME/projects'
+
+alias c='clear'
+
 # pyenv
 # eval "$(pyenv init -)"
 
