@@ -79,3 +79,5 @@ alias grsh^^='git reset --hard HEAD^^'
 
 # remove branch merged except main, master, develop
 alias gbrm="git branch --merged|egrep -v '\*|main|master|develop|dev|release'|xargs git branch -d"
+
+alias gplf="git fetch;git reset --hard origin/$(git symbolic-ref --short HEAD)"
