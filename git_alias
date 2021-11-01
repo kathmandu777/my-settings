@@ -57,6 +57,7 @@ alias gpsoh='git push origin HEAD'
 alias gpl='git pull'
 __git_complete gpl _git_pull
 __git_complete gpl _git_branch
+alias gplf="git fetch;git reset --hard origin/$(git symbolic-ref --short HEAD)"
 
 # stash
 alias gst='git stash'
@@ -79,5 +80,3 @@ alias grsh^^='git reset --hard HEAD^^'
 
 # remove branch merged except main, master, develop
 alias gbrm="git branch --merged|egrep -v '\*|main|master|develop|dev|release'|xargs git branch -d"
-
-alias gplf="git fetch;git reset --hard origin/$(git symbolic-ref --short HEAD)"
