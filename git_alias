@@ -52,6 +52,8 @@ __git_complete gps _git_branch
 alias gpso='git push origin'
 __git_complete gpso _git_branch
 alias gpsoh='git push origin HEAD'
+alias gpsfoh='git push -f origin HEAD'
+alias gpsfloh='git push --force-with-lease origin HEAD'
 
 # pull
 alias gpl='git pull'
