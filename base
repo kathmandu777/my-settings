@@ -14,6 +14,10 @@ alias p='cd $HOME/projects'
 
 alias c='clear'
 
+alias d='docker'
+alias dc='docker-compose'
+alias de='docker exec -it'
+
 # pyenv
 # eval "$(pyenv init -)"
 
