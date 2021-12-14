@@ -59,7 +59,7 @@ alias gpsfloh='git push --force-with-lease origin HEAD'
 alias gpl='git pull'
 __git_complete gpl _git_pull
 __git_complete gpl _git_branch
-alias gplf="git fetch;git reset --hard origin/$(git symbolic-ref --short HEAD)"
+alias gplf='git fetch;git reset --hard origin/$(git symbolic-ref --short HEAD)'
 
 # stash
 alias gst='git stash'
